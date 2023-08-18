@@ -108,6 +108,25 @@ body {
     border-bottom: 2px solid #ffffff;
 }
 
+.arrow-up {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background: linear-gradient(135deg, #DA8023 0%, #E2B438 100%);
+    color: #191411;
+    border: 0;
+    outline: none;
+    transition: background 300ms ease, color 300ms ease;
+
+}
+
+.arrow-up:hover {
+    background: linear-gradient(135deg, #ac6115 0%, #9e7a19 100%);
+    color: #ffffff;
+}
+
 .main-content {
     margin-top: 103px;
     margin-bottom: 199px;
@@ -323,6 +342,8 @@ body {
     height: 60px;
     outline: none;
     color: #ffffff;
+    font-family: inherit;
+    font-size: 16px;
 }
 
 .order-button {
